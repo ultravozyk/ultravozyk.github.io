@@ -176,15 +176,7 @@ img.song_thumb {
 	border:1px solid #FFFFFF;
 	float:right;
 }
-.mp3-player {
-	color:#000000;
-}
 img.cd {
 	background:url(images/jewelcase.png) no-repeat scroll 0 0;
 	padding:4px 4px 4px 13px;
-}
-a.mp3 {
-	background:url(images/mediaplayer.jpg) no-repeat;
-	background-position:left center;
-	padding-left:20px;
 }
