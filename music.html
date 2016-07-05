@@ -11,6 +11,7 @@
     <script type="text/javascript" src="slimbox/jquery.js"></script>
     <script type="text/javascript" src="slimbox/slimbox2.js"></script>
     <link rel="stylesheet" href="slimbox/slimbox2.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="songs/audio.min.js"></script>
 </head>
 
 <body>
@@ -238,6 +239,13 @@
     </div>
     <p class="copyright">&copy; 2016 UltraВожык. УВАГА! Любое падабенства выяваў ды галасоў у матэрыялах на гэтым сайце да сапраўдных фізічных асобаў выпадковае. Усе вакальныя партыі выкананыя музыкамі UltraВожыка.</p>
 </div>
+
+<!-- Initialize audio.js -->
+<script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>
 
 <!-- Google analytics -->
 <script>
