@@ -159,12 +159,11 @@ td img {
 }
 table.portraits {
 	margin:auto;
-	background:transparent;
-	width:400px;
-	border:0;
 }
 .portraits td {
-    padding:10px;
+    padding:5px;
+    width:120px;
+    text-align:center;
 }
 .portraits img {
 	border:1px solid #050505;
