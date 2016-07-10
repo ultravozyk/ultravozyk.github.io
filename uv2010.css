@@ -133,6 +133,9 @@ a:hover {
 .red {
 	color:red;
 }
+.text-center {
+    text-align:center;
+}
 .heading {
 	font-size:18px;
 	font-weight:bold;
