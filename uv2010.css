@@ -87,10 +87,10 @@ main {
 	border-right:1px dashed #444444;
 }
 .feed {
-	padding:0px 20px 10px 20px;
+    padding:0px 20px 20px 20px;
+    overflow:hidden;/*own block formatting context*/
 }
 h1,h2 {
-    margin-top:0.83em;
     margin-bottom:0.83em;
 }
 p {
@@ -130,15 +130,6 @@ a:link, a:visited, a:active {
 }
 a:hover {
 	color:#FD3a3a;
-}
-.clear {
-	clear:both;
-}
-.left {
-	float:left;
-}
-.right {
-	float:right;
 }
 .red {
 	color:red;
