@@ -142,22 +142,37 @@ a:hover {
 a.heading:hover {
 	color:#FFFFFF;
 }
-.normal {
+.release .links {
 	font-family:Verdana,Arial,Helvetica,sans-serif;
 	font-size:12px;
 	font-weight:bold;
 }
-table.release {
-	margin-left:10px;
-	width:510px;
+.release {
+    margin:10px;
+    margin-bottom:12px;
+    padding:8px;
 	background-color:#000000;
 	border:1px solid #666666;
 }
-.release td {
-    padding:8px;
+.release h2 {
+    margin:0;
+    padding:0;
+    border:0;
 }
-td img {
-	margin:0;
+.release .cover img {
+    margin:0;
+}
+.release .info {
+    margin-left:183px;
+}
+.release .info div.released {
+    padding-bottom:1em;
+}
+.release .info span.released {
+    font-size:11px;
+}
+.release .info .links {
+    padding-bottom:1em;
 }
 table.portraits {
 	margin:auto;
