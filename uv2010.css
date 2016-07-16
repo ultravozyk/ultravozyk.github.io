@@ -35,48 +35,31 @@ body {
     list-style: none;
 }
 #menu a {
-	background:transparent url(images/menu.png) no-repeat;
 	position:absolute;
-	height:50px;
-	width:100px;
-	margin-left:12px;
-	color:transparent;
+	margin-left:16px;
+	color:white;
+	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size:23px;
+	font-weight:lighter;
+}
+#menu a:hover {
+	color:#fd3a3a;
 }
 #menu a.news {
-	margin-top:15px;
-	height:25px;
-	width:80px;
-	background-position:-12px -15px;
-}
-#menu a.news:hover {
-	background-position:-144px -15px;
+	margin-top:12px;
+	transform:rotate(5deg);
 }
 #menu a.music {
-	margin-top:65px;
-	height:25px;
-	width:90px;
-	background-position:-12px -65px;
-}
-#menu a.music:hover {
-	background-position:-144px -65px;
+	margin-top:61px;
+	transform:rotate(-2deg);
 }
 #menu a.bio {
 	margin-top:115px;
-	height:30px;
-	width:115px;
-	background-position:-12px -115px;
-}
-#menu a.bio:hover {
-	background-position:-144px -115px;
+	transform:rotate(4deg);
 }
 #menu a.other {
-	margin-top:169px;
-	height:30px;
-	width:78px;
-	background-position:-12px -169px;
-}
-#menu a.other:hover {
-	background-position:-144px -169px;
+	margin-top:167px;
+	transform:rotate(-9deg);
 }
 main {
 	margin-left:300px;
@@ -88,7 +71,7 @@ main {
 	border-right:1px dashed #444444;
 }
 .feed {
-    padding:0px 20px 20px 20px;
+    padding:0 20px 20px 20px;
     overflow:hidden;/*own block formatting context*/
 }
 p {
