@@ -26,10 +26,11 @@ body {
 #menu {
 	float:left;
 	border-left:1px dashed #FFFFFF;
-	margin-top:150px;
-	height:215px;
 	margin-left:110px;
-	width:135px;
+	margin-top:150px;
+	margin-bottom:75px;
+	height:215px;
+	width:189px;
 }
 #menu ul {
     list-style: none;
@@ -62,10 +63,10 @@ body {
 	transform:rotate(-9deg);
 }
 main {
-	margin-left:300px;
+	float:right;
+	margin-right:69px;
 	padding-top:110px;
-	width:530px;
-	height:100%;
+	width:529px;
 	min-height:330px;
 	border-left:1px dashed #444444;
 	border-right:1px dashed #444444;
@@ -169,6 +170,7 @@ table.portraits {
 	border:1px solid #050505;
 }
 .copyright {
+	clear:both;
 	padding:10px;
 	text-align:center;
 }
