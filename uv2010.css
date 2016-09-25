@@ -126,22 +126,10 @@ a:hover {
 a.heading:hover {
 	color:#FFFFFF;
 }
-.release .links {
-	font-family:Verdana,Arial,Helvetica,sans-serif;
-	font-size:12px;
-	font-weight:bold;
-}
 .release {
     margin:10px;
     margin-bottom:12px;
     padding:8px;
-	background-color:#000000;
-	border:1px solid #666666;
-}
-.release h2 {
-    margin:0;
-    padding:0;
-    border:0;
 }
 .release .cover img {
     margin:0;
@@ -149,14 +137,16 @@ a.heading:hover {
 .release .info {
     margin-left:183px;
 }
-.release .info div.released {
-    padding-bottom:1em;
-}
 .release .info span.released {
-    font-size:11px;
+    font-size: 0.8em;
 }
-.release .info .links {
-    padding-bottom:1em;
+.release .info ol {
+    margin: 1em;
+}
+.release .info .track {
+    font-size: 1.3em;
+    margin-top: 0.7em;
+    margin-bottom: 0.2em;
 }
 table.portraits {
 	margin:auto;
