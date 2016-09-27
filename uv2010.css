@@ -5,9 +5,9 @@
 }
 body {
 	background-color:#000000;
-	color:#FFFFFF;
-	font-family:Arial,Helvetica,sans-serif;
-	font-size:11px;
+	color:white;
+	font-family:"Segoe UI",arial,sans-serif;
+	font-size:13px;
 }
 #content {
 	background:url(images/bk-1.jpg) no-repeat;
@@ -39,7 +39,7 @@ body {
 	position:absolute;
 	margin-left:16px;
 	color:white;
-	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-family:"Century Gothic",arial,sans-serif;
 	font-size:23px;
 	font-weight:lighter;
 }
@@ -80,7 +80,7 @@ p {
     margin-bottom:1em;
 }
 h1 {
-	font-size:2em;
+	font-size:1.6em;
 	background-color:#000000;
 	margin-bottom:20px;
 	padding:0;
@@ -95,7 +95,6 @@ h2 {
 	border-bottom:1px solid #CCCCCC;
 }
 .medium {
-	font-size:12px;
 	font-weight:bold;
 }
 a img {
@@ -105,9 +104,8 @@ a img {
 	float:left;
 }
 a:link, a:visited, a:active {
-	border:medium none #000000;
+	border:none;
 	color:#99CCFF;
-	font-weight:bold;
 	text-decoration:none;
 }
 a:hover {
@@ -120,7 +118,7 @@ a:hover {
     text-align:center;
 }
 .heading {
-	font-size:18px;
+	font-size:1.2em;
 	font-weight:bold;
 }
 a.heading:hover {
@@ -144,7 +142,7 @@ a.heading:hover {
     margin: 1em;
 }
 .release .info .track {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-top: 0.7em;
     margin-bottom: 0.2em;
 }
@@ -163,6 +161,7 @@ table.portraits {
 	clear:both;
 	padding:10px;
 	text-align:center;
+	font-size:smaller;
 }
 .contact {
 	background:url(images/uv-contact.png) no-repeat scroll right center;
